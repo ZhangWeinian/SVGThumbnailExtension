@@ -2,9 +2,10 @@
 
 #include "common.h"
 
+// 核心类，用于加载 SVG 文件并生成缩略图
 class CThumbnailProvider: public IThumbnailProvider,
-						  IObjectWithSite,
-						  IInitializeWithStream
+						  public IObjectWithSite,
+						  public IInitializeWithStream
 {
 private:
 	LONG		 m_cRef { 1 };

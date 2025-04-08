@@ -1,12 +1,12 @@
 #pragma once
 
-#include <QtCore/qglobal.h>
-
 #if defined(SVGTHUMBNAILEXTENSION_LIBRARY)
 	#define SVGTHUMBNAILEXTENSIONSHARED_EXPORT Q_DECL_EXPORT
 #else
 	#define SVGTHUMBNAILEXTENSIONSHARED_EXPORT Q_DECL_IMPORT
 #endif
+
+#include <QtCore/qglobal.h>
 
 #include <shlobj.h>
 #include <shlwapi.h>
@@ -38,10 +38,6 @@ DEFINE_GUID(CLSID_SampleThumbnailProvider,
 			0xc0,
 			0x8a);
 
-#if QT_VERSION < 0x05'02'00
-	#include <Qt/QApplication.h>
-#else
-	#include <QtWidgets/QApplication>
-#endif
 
 #include <QtSvg/QSvgRenderer>
+#include <QtWidgets/QApplication>

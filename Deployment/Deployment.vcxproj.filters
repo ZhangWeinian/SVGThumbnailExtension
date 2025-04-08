@@ -15,16 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Modules\Chocolatey.psm1" />
-    <None Include="Modules\Qt.psd1" />
-    <None Include="Modules\Qt.psm1" />
-    <None Include="Modules\Utils.psd1" />
-    <None Include="Modules\Utils.psm1" />
-    <None Include="Modules\VisualStudio.psd1" />
-    <None Include="Modules\VisualStudio.psm1" />
+    <None Include="modules\Chocolatey.psm1" />
+    <None Include="modules\Qt.psd1" />
+    <None Include="modules\Qt.psm1" />
+    <None Include="modules\Utils.psd1" />
+    <None Include="modules\Utils.psm1" />
+    <None Include="modules\VisualStudio.psd1" />
+    <None Include="modules\VisualStudio.psm1" />
     <None Include="appveyor.yml" />
     <None Include="build.cmd" />
-    <None Include="Build.ps1" />
+    <None Include="build.ps1" />
     <None Include="SVGThumbnailExtension.iss" />
   </ItemGroup>
 </Project>

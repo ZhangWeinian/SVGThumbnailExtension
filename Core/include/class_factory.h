@@ -2,6 +2,7 @@
 
 #include "common.h"
 
+// 创建缩略图提供器的实例
 class CClassFactory: public IClassFactory
 {
 private:

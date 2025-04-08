@@ -2,12 +2,6 @@
 
 #include "common.h"
 
-using REGKEY_SUBKEY = struct _REGKEY_SUBKEY
-{
-	HKEY	hKey;
-	LPCWSTR lpszSubKey;
-};
-
 using REGKEY_SUBKEY_AND_VALUE = struct _REGKEY_SUBKEY_AND_VALUE
 {
 	HKEY	  hKey;
@@ -15,6 +9,12 @@ using REGKEY_SUBKEY_AND_VALUE = struct _REGKEY_SUBKEY_AND_VALUE
 	LPCWSTR	  lpszValue;
 	DWORD	  dwType;
 	DWORD_PTR dwData;
+};
+
+using REGKEY_SUBKEY = struct _REGKEY_SUBKEY
+{
+	HKEY	hKey;
+	LPCWSTR lpszSubKey;
 };
 
 /**

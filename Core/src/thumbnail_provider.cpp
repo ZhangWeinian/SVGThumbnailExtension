@@ -90,9 +90,9 @@ STDMETHODIMP_(ULONG) CThumbnailProvider::Release()
 }
 
 /*
- * ===============
+ * ===================
  * End IUnkown methods
- * ===============
+ * ===================
  */
 
 /*
@@ -133,15 +133,15 @@ STDMETHODIMP CThumbnailProvider::Initialize(IStream* pstm, DWORD grfMode)
 }
 
 /*
- * ============================
+ * ================================
  * End IInitializeWithSteam methods
- * ============================
+ * ================================
  */
 
 /*
- * ============================
+ * ==========================
  * IThumbnailProvider methods
- * ============================
+ * ==========================
  */
 
 STDMETHODIMP CThumbnailProvider::GetThumbnail(UINT cx, HBITMAP* phbmp, WTS_ALPHATYPE* pdwAlpha)
@@ -219,15 +219,15 @@ STDMETHODIMP CThumbnailProvider::GetThumbnail(UINT cx, HBITMAP* phbmp, WTS_ALPHA
 }
 
 /*
- * ============================
+ * ==============================
  * End IThumbnailProvider methods
- * ============================
+ * ==============================
  */
 
 /*
- * ============================
+ * =======================
  * IObjectWithSite methods
- * ============================
+ * =======================
  */
 
 STDMETHODIMP CThumbnailProvider::GetSite(REFIID riid, void** ppvSite)
