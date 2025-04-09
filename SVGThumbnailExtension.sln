@@ -4,15 +4,7 @@ VisualStudioVersion = 17.14.35906.104
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Core", "Core\Core.vcxproj", "{047C9291-BBD6-4B28-9DEB-C9EA8E054AAF}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GenerateEvents", "GenerateEvents\GenerateEvents.vcxproj", "{EBB5E2F3-985B-4D16-ACCA-F98A3B127C26}"
-	ProjectSection(ProjectDependencies) = postProject
-		{047C9291-BBD6-4B28-9DEB-C9EA8E054AAF} = {047C9291-BBD6-4B28-9DEB-C9EA8E054AAF}
-	EndProjectSection
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Deployment", "Deployment\Deployment.vcxproj", "{F1AAFBDE-6060-42A3-BA9F-4C1ED1ED5843}"
-	ProjectSection(ProjectDependencies) = postProject
-		{EBB5E2F3-985B-4D16-ACCA-F98A3B127C26} = {EBB5E2F3-985B-4D16-ACCA-F98A3B127C26}
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 	ProjectSection(SolutionItems) = preProject
@@ -29,10 +21,6 @@ Global
 		{047C9291-BBD6-4B28-9DEB-C9EA8E054AAF}.Debug|x64.Build.0 = Debug|x64
 		{047C9291-BBD6-4B28-9DEB-C9EA8E054AAF}.Release|x64.ActiveCfg = Release|x64
 		{047C9291-BBD6-4B28-9DEB-C9EA8E054AAF}.Release|x64.Build.0 = Release|x64
-		{EBB5E2F3-985B-4D16-ACCA-F98A3B127C26}.Debug|x64.ActiveCfg = Debug|x64
-		{EBB5E2F3-985B-4D16-ACCA-F98A3B127C26}.Debug|x64.Build.0 = Debug|x64
-		{EBB5E2F3-985B-4D16-ACCA-F98A3B127C26}.Release|x64.ActiveCfg = Release|x64
-		{EBB5E2F3-985B-4D16-ACCA-F98A3B127C26}.Release|x64.Build.0 = Release|x64
 		{F1AAFBDE-6060-42A3-BA9F-4C1ED1ED5843}.Debug|x64.ActiveCfg = Debug|x64
 		{F1AAFBDE-6060-42A3-BA9F-4C1ED1ED5843}.Debug|x64.Build.0 = Debug|x64
 		{F1AAFBDE-6060-42A3-BA9F-4C1ED1ED5843}.Release|x64.ActiveCfg = Release|x64

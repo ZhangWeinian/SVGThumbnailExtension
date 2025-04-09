@@ -38,7 +38,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include=".clang-format" />
-    <None Include="src\thumbnail_provider.def">
+    <None Include="def\thumbnail_provider.def">
       <Filter>Source Files</Filter>
     </None>
   </ItemGroup>

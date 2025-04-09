@@ -84,9 +84,17 @@
       <PreprocessorDefinitions>SVGTHUMBNAILEXTENSION_LIBRARY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
-      <ModuleDefinitionFile>.\src\thumbnail_provider.def</ModuleDefinitionFile>
+      <ModuleDefinitionFile>.\def\thumbnail_provider.def</ModuleDefinitionFile>
       <AdditionalDependencies>shlwapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
+    <PostBuildEvent>
+      <Command>@echo off
+echo 暂时不启用
+REM "$(QtToolsPath)/windeployqt.exe" "$(TargetPath)"</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>使用 windeployqt 构建引用</Message>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
@@ -96,9 +104,17 @@
       <AdditionalIncludeDirectories>.\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <ModuleDefinitionFile>.\src\thumbnail_provider.def</ModuleDefinitionFile>
+      <ModuleDefinitionFile>.\def\thumbnail_provider.def</ModuleDefinitionFile>
       <AdditionalDependencies>shlwapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
+    <PostBuildEvent>
+      <Command>@echo off
+echo 暂时不启用
+REM "$(QtToolsPath)/windeployqt.exe" "$(TargetPath)"</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
+      <Message>使用 windeployqt 构建引用</Message>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">
     <ClCompile>
@@ -136,7 +152,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include=".clang-format" />
-    <None Include="src\thumbnail_provider.def" />
+    <None Include="def\thumbnail_provider.def" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\class_factory.h" />

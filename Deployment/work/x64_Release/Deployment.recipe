@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>F:\Microsoft VS 2022 Projects\SVGThumbnailExtension\Core\build\x64_Release\SVGThumbnailExtension.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\Microsoft VS 2022 Projects\SVGThumbnailExtension\GenerateEvents\build\x64_Release\GenerateEvents</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\Microsoft VS 2022 Projects\SVGThumbnailExtension\Deployment\build\x64_Release\Deployment</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>
